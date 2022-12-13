@@ -4,7 +4,7 @@
 
 extern Gravity::Application* Gravity::CreateApplication();
 
-int main()
+int main(int argc,char **argv)
 {
 	Gravity::Application* app = Gravity::CreateApplication();
 	app->Run();

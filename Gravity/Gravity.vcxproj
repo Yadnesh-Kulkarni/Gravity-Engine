@@ -19,12 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Gravity\Log.h" />
     <ClInclude Include="src\Gravity.h" />
     <ClInclude Include="src\Gravity\Application.h" />
     <ClInclude Include="src\Gravity\Core.h" />
     <ClInclude Include="src\Gravity\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Gravity\Log.cpp" />
     <ClCompile Include="src\Gravity\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -127,6 +129,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GVT_PLATFORM_WINDOWS;GVT_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Gravity\3rdParty\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
