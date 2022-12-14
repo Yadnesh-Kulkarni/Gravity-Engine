@@ -1,5 +1,5 @@
 # Gravity-Engine
-Building a game engine with multiple aspects. Following the series by The Cherno
+Building a 3D Interactive Engine.
 
 # Project Gravity
     1. A DLL that would work as Game Engine Library for application
@@ -8,3 +8,8 @@ Building a game engine with multiple aspects. Following the series by The Cherno
 
 # Project Sandbox-Application
     1. Application project
+    
+# How To Build :
+    1. Run build.bat
+    2. Use VS2019 to open the project
+    3. If other VS version is to be used then change build.bat accordingly
